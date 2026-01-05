@@ -12,8 +12,9 @@ models/turbo/
 models/checkpoint-*
 models/runs/
 
-# Preprocessed data (regenerate on target)
-chatterbox_dataset_2/preprocess/
+# Dataset (download from Google Drive)
+chatterbox_dataset_2/
+*.zip
 
 # Cache
 __pycache__/

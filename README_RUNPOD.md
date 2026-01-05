@@ -20,9 +20,10 @@ pip install -r requirements.txt
 cd finetuning_utils
 python setup.py
 
-# 4. Subir dataset (metadata.csv + wavs/)
-# Opción A: scp desde local
-# Opción B: wget desde Google Drive/S3
+# 4. Descargar dataset desde Google Drive
+pip install gdown
+gdown --fuzzy "https://drive.google.com/file/d/1Irh3RErOhnOhMbYLgkB3d7NNW0csXABY/view?usp=sharing"
+unzip chatterbox_dataset_2.zip
 
 # 5. Entrenar
 python train.py
