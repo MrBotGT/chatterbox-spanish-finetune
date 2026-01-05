@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Model files (download on RunPod)
+finetuning_utils/pretrained_models/
+finetuning_utils/backup_standard/
+
+# Checkpoints (generated during training)
+models/turbo/
+models/checkpoint-*
+models/runs/
+
+# Preprocessed data (regenerate on target)
+chatterbox_dataset_2/preprocess/
+
+# Cache
+__pycache__/
+*.pyc
+.DS_Store
+
+# Generated audio (not training data)
+audios_generados/
+
+# Logs
+*.log
+runs/

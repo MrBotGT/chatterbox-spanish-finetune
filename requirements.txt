@@ -1,0 +1,23 @@
+# Core ML
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers==4.46.3
+safetensors>=0.4.0
+accelerate>=1.0.0
+
+# Chatterbox TTS
+chatterbox-tts==0.1.6
+
+# Training
+datasets>=2.0.0
+peft==0.12.0
+
+# UI (optional)
+gradio>=5.0.0
+
+# Utils
+tqdm
+requests
+numpy
+soundfile
+librosa
